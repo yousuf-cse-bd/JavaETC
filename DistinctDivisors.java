@@ -25,7 +25,6 @@ public class DistinctDivisors {
     }
     public static long countDistinctDivisors(long longNumber){
         long divisorsCount = 0;
-        
         for(long i = 1; (i * i) <= longNumber; i++){
             if(longNumber % i == 0){
                 if(longNumber / i == i){
